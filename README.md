@@ -6,7 +6,7 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
 # Table of Contents
 - [Displaying Hasse diagrams](#displaying-hasse-diagrams)
   * [Powesets - ps_hasse](#powersets-ps_hasse)
-  * [Orthoalgebras (and Boolean algebras)](#orthoalgebras-(and-boolean-algebras) 
+  * [Orthoalgebras (and Boolean algebras)](#orthoalgebras-(and-boolean-algebras))
 - [Checking Orthoalgebras](#checking-orthoalgebras)
 - [Generating Orthoalgebras](#generating-orthoalgebras) 
 
