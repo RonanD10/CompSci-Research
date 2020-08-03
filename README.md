@@ -79,4 +79,17 @@ Determining no solution exists.
 This program display hypergraphs. 
 
 Explanation of datatypes:
-- 
+- `ATOMS` is a list of strings (which correspond points in the graph)
+- `LINES` is a list containing 3-element lists (which correspond to the lines in the graph)
+- `PLANES` is a list containing 7-element lists (which correspond to the planes in the graph)
+
+Examples:
+
+A point and a line.
+
+![alt text](https://github.com/RonanD10/Hypergraphs-and-Orthoalgebras/blob/master/example7.png)
+
+A plane.
+
+![alt text](https://github.com/RonanD10/Hypergraphs-and-Orthoalgebras/blob/master/example8.png)
+
