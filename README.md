@@ -5,7 +5,7 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
 
 # Table of Contents
 - [Displaying Hasse diagrams](#displaying-hasse-diagrams)
-  * [Powesets - PS_Hasse](#powersets-ps-_hasse)
+  * [Powesets - ps_hasse](#powersets-ps-_hasse)
   * [Boolean algebras](#boolean-algebras) 
   * [Orthoalgebras](#orthoalgebras) 
 - [Checking Orthoalgebras](#checking-orthoalgebras)
@@ -14,8 +14,17 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
 
 ## Displaying Hasse diagrams
 
-### Powersets - PS_Hasse
-This file 
+### Powersets - ps_hasse
+This program allows you to generate the Hasse diagram of a powerset. For example:
+
+```python 
+
+list = powerset([1,2]) # returns [[1,2],[1],[2],[]]
+ps_hasse(list, 2) # returns Hasse diagram of list
+```
+Returns 
+
+![alt text](https://github.com/RonanD10/Hypergraphs-and-Orthoalgebras/blob/master/example1.png)
 
 ### Boolean Algebras
 
