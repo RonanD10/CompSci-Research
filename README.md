@@ -1,6 +1,8 @@
 # Hypergraphs-and-Orthoalgebras
 A repository of the programs used in my summer project about hypergraphs and orthoalgebras. In particular, the programs are mostly for displaying graphs of certain algebras, and for checking validity of candidate orthoalgebras.
 
+It is necessary to have Graphviz installed in order to display the graphs. Info on Graphviz can be found here: https://graphviz.readthedocs.io/en/stable/manual.html.
+
 # Table of Contents
 - [Displaying Hasse diagrams](#displaying-hasse-diagrams)
   * [Powesets](#powersets)
@@ -13,8 +15,13 @@ A repository of the programs used in my summer project about hypergraphs and ort
 ## Displaying Hasse diagrams
 
 ### Powersets
+The file PS Hasse.py 
+
+### Boolean Algebras
 
 ### Orthoalgebras
+
+
 
 ## Checking Orthoalgebras
 
