@@ -5,7 +5,7 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
 
 # Table of Contents
 - [Displaying Hasse diagrams](#displaying-hasse-diagrams)
-  * [Powesets](#powersets)
+  * [Powesets - PS-Hasse](#powersets-ps-hasse)
   * [Boolean algebras](#boolean-algebras) 
   * [Orthoalgebras](#orthoalgebras) 
 - [Checking Orthoalgebras](#checking-orthoalgebras)
@@ -14,8 +14,8 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
 
 ## Displaying Hasse diagrams
 
-### Powersets
-The file PS Hasse.py 
+### Powersets - PS-Hasse
+This file 
 
 ### Boolean Algebras
 
