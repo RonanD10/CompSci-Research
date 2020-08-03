@@ -6,10 +6,10 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
 # Table of Contents
 - [Displaying Hasse diagrams](#displaying-hasse-diagrams)
   * [Powesets - ps_hasse](#powersets-ps_hasse)
-  * [Orthoalgebras (and Boolean algebras) - oa_hasse](#orthoalgebras-(and-boolean-algebras))
-- [Checking Orthoalgebras - oa_check](#checking-orthoalgebras)
-- [Generating Orthoalgebras - oa_gen](#generating-orthoalgebras) 
-- [Displaying Hypergraphs hg_show] (#displaying-hypergraphs)
+  * [Orthoalgebras (and Boolean algebras) - oa_hasse](#orthoalgebras-(and-boolean-algebras)-oa_hasse)
+- [Checking Orthoalgebras - oa_check](#checking-orthoalgebras-oa_check)
+- [Generating Orthoalgebras - oa_gen](#generating-orthoalgebras-oa_gen) 
+- [Displaying Hypergraphs - hg_show] (#displaying-hypergraphs-hg_show)
 
 
 ## Displaying Hasse diagrams
@@ -54,10 +54,29 @@ An invalid orthoalgebra.
 ![alt text](https://github.com/RonanD10/Hypergraphs-and-Orthoalgebras/blob/master/example4.png)
 
 ## Generating Orthoalgebras - oa_gen
+The program generates orthoalgebras by searching for an `OPLUS` matrix (if any) which satisfies the orthoalgebra axioms and corresponds to a given `COMP` matrix. 
+
+Explanation of functions:
+- `oa_check2` checks if `OPLUS` satisfies the orthoalgebra associativity axiom
+- `ass_checker` checks if certains in `OPLUS` are associative with all other entries non-negative entries
+- `generator` checks if a valid `OPLUS` matrix exists for a specific `COMP` matrix
+- `random_comp` creates a random `COMP` matrix
+- `temp_oplus` creates a template `OPLUS` matrix with all necessary entries pre-filled
+- `neg` creates a valid `NEG` array of a given length
+
+Examples:
+
+Finding a valid orthoalgebra. 
+
+![alt text](https://github.com/RonanD10/Hypergraphs-and-Orthoalgebras/blob/master/example5.png)
+
+Determining no solution exists.
+
+![alt text](https://github.com/RonanD10/Hypergraphs-and-Orthoalgebras/blob/master/example6.png)
 
 
+## Displaying Hypergraphs - hg_show
+This program display hypergraphs. 
 
-## Displaying Hypergraphs - oa_show
-
-
-
+Explanation of datatypes:
+- 
