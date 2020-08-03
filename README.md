@@ -9,7 +9,7 @@ It is necessary to have Graphviz installed in order to display the graphs. Info 
   * [Orthoalgebras (and Boolean algebras) - oa_hasse](#orthoalgebras-(and-boolean-algebras)---oa_hasse)
 - [Checking Orthoalgebras - oa_check](#checking-orthoalgebras---oa_check)
 - [Generating Orthoalgebras - oa_gen](#generating-orthoalgebras---oa_gen) 
-- [Displaying Hypergraphs - hg_show] (#displaying-hypergraphs---hg_show)
+- [Displaying Hypergraphs - hg_show](#displaying-hypergraphs---hg_show)
 
 
 ## Displaying Hasse diagrams
